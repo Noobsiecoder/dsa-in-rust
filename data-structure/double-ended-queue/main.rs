@@ -57,11 +57,11 @@ impl<T: std::fmt::Debug> Deque<T> {
 
     fn delete_front(&mut self) {
         if self.front == -1 {
-            eprintln!("Cannot remove data since circular queue is empty\n");
+            eprintln!("Cannot remove data since deque is empty\n");
         } else {
             let element = &self.vector[self.front as usize];
             println!(
-                "Element removed is {:?} and was situated at CircularQueue[{}]",
+                "Element removed is {:?} and was situated at Deque[{}]",
                 element, self.front
             );
             if self.front == self.rear {
@@ -75,11 +75,11 @@ impl<T: std::fmt::Debug> Deque<T> {
 
     fn delete_rear(&mut self) {
         if self.rear == -1 {
-            eprintln!("Cannot remove data since circular queue is empty\n");
+            eprintln!("Cannot remove data since deque is empty\n");
         } else {
             let element = self.vector.pop().unwrap();
             println!(
-                "Element removed is {:?} and was situated at CircularQueue[{}]",
+                "Element removed is {:?} and was situated at Deque[{}]",
                 element, self.rear
             );
             if self.front == self.rear {
@@ -103,8 +103,8 @@ impl<T: std::fmt::Debug> Deque<T> {
             println!("{:?}", deque_vector);
         }
 
-        println!("Is Circular queue empty? {}", self.check_deque_empty());
-        println!("Is Circular queue full? {}\n", self.check_deque_full());
+        println!("Is Deque empty? {}", self.check_deque_empty());
+        println!("Is Deque full? {}\n", self.check_deque_full());
     }
 }
 

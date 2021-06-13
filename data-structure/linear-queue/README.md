@@ -22,8 +22,7 @@
 
 ## Pseudocode
 
-- Representation :-
-  <img src="https://cdn.programiz.com/sites/tutorial2program/files/Queue-program-enqueue-dequeue.png" alt="queue-working-example" width="400"/>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/Queue-program-enqueue-dequeue.png" alt="queue-working-example" width="400"/>
 
 ### Default
 

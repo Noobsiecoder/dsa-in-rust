@@ -29,8 +29,7 @@
 
 ## Pseudocode
 
-- Representation :-
-  <img src="https://www.happycoders.eu/wp-content/uploads/2020/04/Datastructure_Deque.png" alt="deque-working-example" width="400"/>
+<img src="https://www.happycoders.eu/wp-content/uploads/2020/04/Datastructure_Deque.png" alt="deque-working-example" width="400"/>
 
 ### Default
 

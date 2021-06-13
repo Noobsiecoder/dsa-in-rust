@@ -22,8 +22,7 @@
 
 ## Pseudocode
 
-- Representation :-
-  <img src="https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png" alt="stack-working-example" width="400"/>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/stack-operations.png" alt="stack-working-example" width="400"/>
 
 ### Default
 

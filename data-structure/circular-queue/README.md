@@ -23,8 +23,7 @@
 
 ## Pseudocode
 
-- Representation :-
-  <img src="https://cdn.programiz.com/sites/tutorial2program/files/circular-queue-program.png" alt="circ-queue-working-example" width="400"/>
+<img src="https://cdn.programiz.com/sites/tutorial2program/files/circular-queue-program.png" alt="circ-queue-working-example" width="400"/>
 
 ### Default
 
